@@ -20112,6 +20112,9 @@ table.footable-editing.footable-editing-always-show button.footable-add {
           color: #277CBC;
           text-align: right;
           flex-shrink: 0; } }
+      @media (max-width: 576px) {
+        .table-rwd > tbody > tr > td:before {
+          min-width: 100px; } }
     .table-rwd > tbody > tr > td[data-th="none"]:before {
       display: none; }
   .table-rwd a {
@@ -21359,6 +21362,8 @@ input[type="file"] {
     @media (max-width: 1200px) {
       .side-menu-header {
         font-size: 1rem; } }
+  .side-menu-body {
+    height: 100%; }
   .side-menu-item {
     background: none;
     border: none;
@@ -21629,8 +21634,7 @@ input[type="file"] {
       padding-left: 150px; } }
   @media (max-width: 1400px) {
     .footer {
-      padding-left: 16px;
-      padding-top: 70px; } }
+      padding-left: 16px; } }
   @media (max-width: 1200px) {
     .footer {
       width: calc(100% - 280px);
@@ -21723,7 +21727,7 @@ input[type="file"] {
     .footer-gotop img {
       width: 16px; }
   .footer a {
-    color: #FFFFC9; }
+    color: #00B174; }
 
 /* ---------------------登入頁開始------------------------*/
 .login {
