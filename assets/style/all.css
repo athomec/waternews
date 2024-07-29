@@ -20662,7 +20662,7 @@ input::placeholder, textarea::placeholder {
   border: 1px solid #55C5C5 !important; }
 
 input[readonly] {
-  border: 1px solid #EEFAEE !important; }
+  border: 1px solid #ced4da !important; }
   input[readonly]:focus {
     -webkit-box-shadow: none;
             box-shadow: none; }
@@ -21176,7 +21176,7 @@ input[type="file"] {
       margin-top: 163px; } }
   @media (max-width: 576px) {
     .main {
-      margin-top: 158px; } }
+      margin-top: 138px; } }
 
 /*--------------------主選單開始------------------*/
 .navbar {
@@ -21297,6 +21297,10 @@ input[type="file"] {
       .navbar-header {
         top: 68px;
         height: 90px; } }
+    @media (max-width: 523px) {
+      .navbar-header {
+        padding: 0 3%;
+        height: 70px; } }
     .navbar-header-img {
       width: 370px; }
       @media (max-width: 1400px) {
@@ -21305,6 +21309,9 @@ input[type="file"] {
       @media (max-width: 767px) {
         .navbar-header-img {
           width: 55%; } }
+      @media (max-width: 523px) {
+        .navbar-header-img {
+          width: 45%; } }
     .navbar-header-title {
       font-weight: 700; }
       @media (max-width: 1400px) {
@@ -21318,7 +21325,8 @@ input[type="file"] {
           font-size: 1.5rem; } }
       @media (max-width: 576px) {
         .navbar-header-title {
-          font-size: 1.25rem; } }
+          font-size: 1.25rem;
+          margin-bottom: 0; } }
 
 /*--------------------側邊選單開始------------------*/
 .side-menu {
@@ -21351,6 +21359,9 @@ input[type="file"] {
   @media (max-width: 576px) {
     .side-menu {
       height: calc(100% - 158px); } }
+  @media (max-width: 523px) {
+    .side-menu {
+      height: calc(100% - 138px); } }
   .side-menu-header {
     font-size: 1.25rem;
     color: #fff;
