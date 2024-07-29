@@ -1,0 +1,8 @@
+<svg id="ic-news" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+  <g id="Group_915" data-name="Group 915">
+    <rect id="Rectangle_882" data-name="Rectangle 882" width="30" height="30" fill="none"/>
+  </g>
+  <g id="Group_916" data-name="Group 916" transform="translate(2.539 3.808)">
+    <path id="Path_2606" data-name="Path 2606" d="M27.386,3l-2.12,2.12L23.159,3l-2.12,2.12L18.919,3,16.812,5.12,14.693,3l-2.12,2.12L10.466,3,8.346,5.12,6.227,3,4.12,5.12,2,3V23.308a2.546,2.546,0,0,0,2.539,2.539H24.847a2.546,2.546,0,0,0,2.539-2.539ZM13.423,23.308H4.539V15.693h8.885Zm11.423,0H15.962V20.77h8.885Zm0-5.077H15.962V15.693h8.885Zm0-5.077H4.539V9.346H24.847Z" transform="translate(-2 -3)" fill="#b9b9b9"/>
+  </g>
+</svg>

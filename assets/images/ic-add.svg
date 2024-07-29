@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_45" data-name="Ellipse 45" cx="14" cy="14" r="14" transform="translate(1797 364)" fill="#277cbc"/>
+    </clipPath>
+  </defs>
+  <g id="ic-add" transform="translate(-1797 -364)" clip-path="url(#clip-path)">
+    <path id="plus-circle-fill" d="M28,14A14,14,0,1,1,14,0,14,14,0,0,1,28,14M14.875,7.875a.875.875,0,0,0-1.75,0v5.25H7.875a.875.875,0,0,0,0,1.75h5.25v5.25a.875.875,0,0,0,1.75,0v-5.25h5.25a.875.875,0,0,0,0-1.75h-5.25Z" transform="translate(1797 364)" fill="#277cbc"/>
+  </g>
+</svg>

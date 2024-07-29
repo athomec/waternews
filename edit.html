@@ -1,0 +1,1715 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <title>新聞及輿情管理系統</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="新聞及輿情管理系統,輿情管理系,農村發展及水土保持署">
+    <meta name="description" content="新聞及輿情管理系統" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta property="og:site_name" content="image.png" />
+    <meta property="og:image" content="assets/images/fb-img.png"/>
+    <!--分享設定-->
+    <link rel="icon" href="assets/images/favicon.svg" type="image/ico" />
+    <!--iconfont設定-->
+    <link rel="stylesheet" href="assets/style/all.css">
+    <!--css設定-->
+</head>
+
+	<body>
+		<noscript>
+			<div class="container">
+				<div
+					class="d-flex justify-content-center bg-base-light rounded p-4 text-primary border border-primary mt-6">
+					很抱歉，網站的某些功能在JavaScript沒有啟用的狀態下無法正常使用。
+				</div>
+			</div>
+		</noscript>
+		<!--頁面開始-->
+		<div class="wrapper">
+			<!--主選單開始-->
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top flex-wrap py-2 py-xxl-3 bg-primary shadow-none" data-con="">
+        <div class="container-fluid ps-xxl-5 pe-0">
+            <a class="navbar-brand py-0 me-0" href="index.html" title="新聞及輿情管理系統">
+                <img src="./assets/images/main-logo.svg" class="me-2" alt="農村發展及水土保持署" />
+            </a>
+            <ul class="navbar-nav flex-row ms-auto py-md-2 ps-sm-3 pe-2 pe-xxl-5">
+                <li class="nav-item fw-medium">
+                    <a href="#" class="nav-link"><img src="./assets/images/ic-service.svg" alt="icon" class="me-2">客服填報</a>
+                </li>
+                <li class="nav-item me-2 me-lg-3 fw-medium">
+                    <img src="./assets/images/ic-user.svg" alt="icon" class="me-1">您好，Hsda13578
+                </li>
+                <li class="nav-item">
+                    <a class="nav-btn btn btn-sm text-white rounded-pill flex-shrink-0 px-md-3 py-0" href="login.html" title="登出">登出</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="navbar-header shadow-sm">
+        <h1 class="navbar-header-title">新聞及輿情管理系統</h1>
+        <img src="./assets/images/header-main.png" class="navbar-header-img">
+    </div>
+</header>
+<!--主選單結束-->
+				<!--內容區塊開始-->
+<main class="main d-flex">
+    <div class="side-menu js-side-menu">
+        <button class="btn side-menu-toggler js-side-menu-toggler d-lg-none p-1" type="button">
+            <img src="./assets/images/ic-chevron-right.svg"> 功能選單
+        </button>
+        <div class="side-menu-body scrollbar">
+            <div class="accordion">
+                <div class="accordion-item side-menu-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn side-menu-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse1">
+                            <img src="./assets/images/ic-news.svg" class="me-2 me-xl-3">
+                            <p>1 輿情蒐集管理</p>
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent=".side-menu">
+                        <ul class="side-menu-accordion">
+                            <li><a href="#" class="side-menu-link">1-1 輿情查詢</a></li>
+                            <li><a href="#" class="side-menu-link">1-2 統計圖表</a></li>
+                            <li><a href="#" class="side-menu-link">1-3 回應紀錄</a></li>
+                            <li><a href="#" class="side-menu-link">1-4 輿情補登</a></li>
+                            <li><a href="#" class="side-menu-link">1-5 漏蒐追蹤</a></li>
+                            <li><a href="#" class="side-menu-link">1-6 刪除恢復</a></li>
+                            <li><a href="filter.html" class="side-menu-link">1-7 來源過濾</a></li>
+                            <li><a href="#" class="side-menu-link">1-8 關鍵字設定</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item side-menu-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn side-menu-btn collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse2">
+                            <img src="./assets/images/ic-assessment.svg" class="me-2 me-xl-3">
+                            <p>2 新聞稿作業</p>
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent=".side-menu">
+                        <ul class="side-menu-accordion">
+                            <li><a href="edit.html" class="side-menu-link">2-1 新聞稿編輯區</a></li>
+                            <li><a href="#" class="side-menu-link">2-2 統計圖表</a></li>
+                            <li><a href="#" class="side-menu-link">2-3 回應紀錄</a></li>
+                            <li><a href="#" class="side-menu-link">2-4 輿情補登</a></li>
+                            <li><a href="#" class="side-menu-link">2-5 漏蒐追蹤</a></li>
+                            <li><a href="#" class="side-menu-link">2-6 刪除恢復</a></li>
+                            <li><a href="filter.html" class="side-menu-link">2-7 來源過濾</a></li>
+                            <li><a href="#" class="side-menu-link">2-8 關鍵字設定</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item side-menu-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn side-menu-btn collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse3">
+                            <img src="./assets/images/ic-message.svg" class="me-2 me-xl-3">
+                            <p>3 簡訊作業</p>
+                        </button>
+
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse" data-bs-parent=".side-menu">
+                        <ul class="side-menu-accordion">
+                            <li><a href="#" class="side-menu-link">3-1 輿情查詢</a></li>
+                            <li><a href="#" class="side-menu-link">3-2 統計圖表</a></li>
+                            <li><a href="#" class="side-menu-link">3-3 回應紀錄</a></li>
+                            <li><a href="#" class="side-menu-link">3-4 輿情補登</a></li>
+                            <li><a href="#" class="side-menu-link">3-5 漏蒐追蹤</a></li>
+                            <li><a href="#" class="side-menu-link">3-6 刪除恢復</a></li>
+                            <li><a href="filter.html" class="side-menu-link">3-7 來源過濾</a></li>
+                            <li><a href="#" class="side-menu-link">3-8 關鍵字設定</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item side-menu-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn side-menu-btn collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse4">
+                            <img src="./assets/images/ic-setting.svg" class="me-2 me-xl-3">
+                            <p>4 業務應用</p>
+                        </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse" data-bs-parent=".side-menu">
+                        <ul class="side-menu-accordion">
+                            <li><a href="#" class="side-menu-link">1-1 輿情查詢</a></li>
+                            <li><a href="#" class="side-menu-link">1-2 統計圖表</a></li>
+                            <li><a href="#" class="side-menu-link">1-3 回應紀錄</a></li>
+                            <li><a href="#" class="side-menu-link">1-4 輿情補登</a></li>
+                            <li><a href="#" class="side-menu-link">1-5 漏蒐追蹤</a></li>
+                            <li><a href="#" class="side-menu-link">1-6 刪除恢復</a></li>
+                            <li><a href="filter.html" class="side-menu-link">1-7 來源過濾</a></li>
+                            <li><a href="#" class="side-menu-link">1-8 關鍵字設定</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="side-content js-side-content close">
+        <div class="side-content-header py-xl-4 mb-3">
+            <h2 class="side-content-title">新聞稿編輯區</h2>
+            <ol class="breadcrumb ms-auto">
+                <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-link" title="首頁">首頁</a></li>
+                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link" title="新聞稿管理">新聞稿管理</a></li>
+                <li class="breadcrumb-item active">新聞稿編輯區</li>
+            </ol>
+        </div>
+        <div class="side-content-main">
+            <div class="container-fluid">
+                <h3 class="table-container-header bg-tertiary">
+                    <div class="table-badge table-badge-white">1</div>
+                    <p>選擇供稿人</p>
+                </h3>
+                <table class="table table-container shadow-sm">
+                    <tbody>
+                        <tr>
+                            <th scope="row" width="15%">供稿人 <span class="text-danger">*</span></th>
+                            <td>
+                                <div class="container-fluid px-0">
+                                    <div class="row gy-3">
+                                        <div class="col-md-4">
+                                            <label for="contributor_unit" class="form-label">單位</label>
+                                            <input type="text" class="form-control" id="contributor_unit" value="秘書室">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="contributor_department" class="form-label">科室</label>
+                                            <input type="text" class="form-control" id="contributor_department"
+                                                value="公共關係科">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="contributor" class="form-label">供稿人</label>
+                                            <input type="text" class="form-control" id="contributor" value="GEO測試帳號">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">聯絡方式</th>
+                            <td>
+                                <div class="container-fluid px-0">
+                                    <div class="row gy-3">
+                                        <div class="col-md-4">
+                                            <label for="contributor_tel" class="form-label">聯絡電話</label>
+                                            <input type="text" class="form-control" id="contributor_tel"
+                                                value="049-0000000轉7103">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="contributor_mail" class="form-label">電子郵件</label>
+                                            <input type="email" class="form-control" id="contributor_mail"
+                                                value="test@geo.com.tw">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="table-container-connect"></div>
+                <h3 class="table-container-header bg-primary">
+                    <div class="table-badge table-badge-white">2</div>
+                    <p>輸入新聞稿</p>
+                </h3>
+                <table class="table table-container shadow-sm">
+                    <tbody>
+                        <tr>
+                            <th scope="row">新聞範本<span class="text-danger">*</span></th>
+                            <td>
+                                <div class="form-check form-check-inline me-4">
+                                    <input class="form-check-input" type="radio" name="news_template" id="main_template"
+                                        value="option1" checked>
+                                    <label class="form-check-label" for="main_template">農糧署範本</label>
+                                </div>
+                                <div class="form-check form-check-inline me-4">
+                                    <input class="form-check-input" type="radio" name="news_template"
+                                        id="branch_template" value="option2">
+                                    <label class="form-check-label" for="branch_template">分署範本</label>
+                                </div>
+                                <div class="form-check form-check-inline me-4">
+                                    <input class="form-check-input" type="radio" name="news_template"
+                                        id="division_template" value="option1">
+                                    <label class="form-check-label" for="division_template">農業部範本</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="news_template"
+                                        id="interview_template" value="option2">
+                                    <label class="form-check-label" for="interview_template">採訪通知</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">預設發布日期</th>
+                            <td>
+                                <label for="news_date" class="form-label visually-hidden">日期</label>
+                                <div class="input-group date" id="news_date" data-target-input="nearest"
+                                    style="max-width: 350px;">
+                                    <input type="text" class="form-control datetimepicker-input border-end-0 pe-0"
+                                        data-target="#news_date">
+                                    <div class="input-group-append" data-target="#news_date"
+                                        data-toggle="datetimepicker">
+                                        <button class="btn input-group-text" title="新聞稿資訊日期" value="新聞稿資訊日期">
+                                            <img src="./assets/images/ic-calendar.svg" alt="icon">
+                                        </button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" width="15%">發布窗口 <span class="text-danger">*</span></th>
+                            <td>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unit" id="main_unit"
+                                        value="option1" checked>
+                                    <label class="form-check-label" for="main_unit">農村水保署</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="unit" id="branch"
+                                        value="option2">
+                                    <label class="form-check-label" for="branch">農業部</label>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" width="15%">簽核層級</th>
+                            <td>
+                                會內簡簽(呈核至主秘)
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">新聞稿標題<span class="text-danger">*</span></th>
+                            <td>
+                                <div class="d-flex align-items-center flex-column flex-sm-row">
+                                    <textarea class="form-control" id="event_items"
+                                        rows="3">「泉」家來同樂 員山同樂社區友善營湧泉溝環境  獲頒優良農建獎</textarea>
+                                    <p class="flex-shrink-0 ms-2 ms-md-3 text-end ms-auto " style="width: 80px;"><span
+                                            class="text-secondary">50</span>
+                                        / 100</p>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">新聞稿內容<span class="text-danger">*</span></th>
+                            <td>
+                                <div class="mb-3">
+                                    <img src="./assets/images/demo-edit.png" alt="編輯器示意" class="w-100">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" width="15%">發言人</th>
+                            <td>
+                                <div class="container-fluid px-0">
+                                    <div class="row g-3">
+                                        <div class="col-md-4">
+                                            <label for="unit_out" class="form-label">單位</label>
+                                            <input type="text" class="form-control" id="unit_out"
+                                                value="農業部農村發展及水土保持署/副署長室">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="unit_contact" class="form-label">姓名</label>
+                                            <input type="text" class="form-control" id="unit_contact" value="王曉明">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="unit_tel" class="form-label">電話</label>
+                                            <input type="text" class="form-control" id="unit_tel"
+                                                value="049-2394300轉7030">
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="table-container-connect"></div>
+                <h3 class="table-container-header bg-tertiary">
+                    <div class="table-badge table-badge-white">3</div>
+                    <p>上傳發布附件(非必需)</p>
+                </h3>
+                <table class="table table-container shadow-sm">
+                    <tbody>
+                        <tr>
+                            <th scope="row">附件</th>
+                            <td>
+                                <div class="row gy-3">
+                                    <div class="col-12">
+                                        <label for="intro_file" class="form-label">檔案描述</label>
+                                        <div class="d-flex align-items-center flex-column flex-sm-row">
+                                            <input type="text" class="form-control" id="intro_file"
+                                                value="049-0000000轉7103">
+                                            <p class="flex-shrink-0 ms-2 ms-md-3 text-end ms-auto " style="width: 80px;"><span
+                                                    class="text-secondary">30</span> / 50</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <label for="fileButton" class="form-label">檔案上傳</label>
+                                        <input type="file" class="form-control" id="fileInput" style="display:none"
+                                            onchange="displayFileName()">
+                                        <input class="btn w-100" id="fileButton" onclick="chooseFile()"
+                                            placeholder="點擊選擇檔案"></input>
+                                        <script>
+                                            function chooseFile() {
+                                                document.getElementById('fileInput').click();
+                                            }
+
+                                            function displayFileName() {
+                                                var fileInput = document.getElementById('fileInput');
+                                                var fileButton = document.getElementById('fileButton');
+                                                fileInput.style.display = 'block';
+                                                fileButton.style.setProperty('display', 'none', 'important');
+                                            }
+                                        </script>
+                                    </div>
+                                    <div class="col-12">
+                                        <ul class="notice-list">
+                                            <li class="notice-list-item">可上傳檔案格式：docx、odf、pdf、jpg、png</li>
+                                            <li class="notice-list-item">
+                                                上傳說明:圖片檔最小不得低於1.4MB；檔案最大不得超過3MB；副檔名稱不得為中文；如有圖卡，請轉成pdf上傳</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="table-container-connect"></div>
+                <h3 class="table-container-header bg-primary">
+                    <div class="table-badge table-badge-white">4</div>
+                    <p>加入發布媒體</p>
+                </h3>
+                <table class="table table-container shadow-sm mb-5">
+                    <tbody>
+                        <tr>
+                            <th scope="row" width="15%">農村水保署通訊錄</th>
+                            <td>
+                                <div class="accordion table-accordion" id="addressBook">
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#addressBook1">
+                                                署長室
+                                            </button>
+                                        </h2>
+                                        <div id="addressBook1" class="accordion-collapse collapse show"
+                                            data-bs-parent="#addressBook">
+                                            <div class="accordion-body pt-2">
+                                                <div class="d-flex mb-2 border-bottom border-secondary-light pb-2">
+                                                    <a href="#"
+                                                        class="btn btn-sm btn-secondary text-white rounded-pill px-3 ms-auto me-2">清除</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm btn-primary text-white rounded-pill px-3">全選</a>
+                                                </div>
+                                                <div class="odd-wrapper">
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount1">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount1"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check1" checked>
+                                                                    <label class="form-check-label" for="check1">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check2">
+                                                                    <label class="form-check-label" for="check2">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check3">
+                                                                    <label class="form-check-label" for="check3">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount2">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount2"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check4" checked>
+                                                                    <label class="form-check-label" for="check4">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check5" checked>
+                                                                    <label class="form-check-label" for="check5">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check6" checked>
+                                                                    <label class="form-check-label" for="check6">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount3">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount3"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check7" checked>
+                                                                    <label class="form-check-label" for="check7">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check8">
+                                                                    <label class="form-check-label" for="check8">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check9">
+                                                                    <label class="form-check-label" for="check9">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount4">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount4"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check10" checked>
+                                                                    <label class="form-check-label" for="check10">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check11" checked>
+                                                                    <label class="form-check-label" for="check11">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check12" checked>
+                                                                    <label class="form-check-label" for="check12">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount5">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount5"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check13" checked>
+                                                                    <label class="form-check-label" for="check13">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check14">
+                                                                    <label class="form-check-label" for="check14">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check15">
+                                                                    <label class="form-check-label" for="check15">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount6">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount6"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check16" checked>
+                                                                    <label class="form-check-label" for="check16">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check17">
+                                                                    <label class="form-check-label" for="check17">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check18">
+                                                                    <label class="form-check-label" for="check18">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount7">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount7"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check19" checked>
+                                                                    <label class="form-check-label" for="check19">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check20" checked>
+                                                                    <label class="form-check-label" for="check20">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check21" checked>
+                                                                    <label class="form-check-label" for="check21">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount8">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount8"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check22" checked>
+                                                                    <label class="form-check-label" for="check22">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check23">
+                                                                    <label class="form-check-label" for="check23">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check24">
+                                                                    <label class="form-check-label" for="check24">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#addressBook2">
+                                                署長室
+                                            </button>
+                                        </h2>
+                                        <div id="addressBook2" class="accordion-collapse collapse"
+                                            data-bs-parent="#addressBook">
+                                            <div class="accordion-body pt-2">
+                                                <div class="d-flex mb-2 border-bottom border-secondary-light pb-2">
+                                                    <a href="#"
+                                                        class="btn btn-sm btn-secondary text-white rounded-pill px-3 ms-auto me-2">清除</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm btn-primary text-white rounded-pill px-3">全選</a>
+                                                </div>
+                                                <div class="odd-wrapper">
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount1">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount1"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check1" checked>
+                                                                    <label class="form-check-label" for="check1">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check2">
+                                                                    <label class="form-check-label" for="check2">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check3">
+                                                                    <label class="form-check-label" for="check3">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount2">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount2"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check4" checked>
+                                                                    <label class="form-check-label" for="check4">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check5" checked>
+                                                                    <label class="form-check-label" for="check5">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check6" checked>
+                                                                    <label class="form-check-label" for="check6">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount3">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount3"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check7" checked>
+                                                                    <label class="form-check-label" for="check7">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check8">
+                                                                    <label class="form-check-label" for="check8">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check9">
+                                                                    <label class="form-check-label" for="check9">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount4">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount4"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check10" checked>
+                                                                    <label class="form-check-label" for="check10">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check11" checked>
+                                                                    <label class="form-check-label" for="check11">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check12" checked>
+                                                                    <label class="form-check-label" for="check12">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount5">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount5"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check13" checked>
+                                                                    <label class="form-check-label" for="check13">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check14">
+                                                                    <label class="form-check-label" for="check14">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check15">
+                                                                    <label class="form-check-label" for="check15">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount6">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount6"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check16" checked>
+                                                                    <label class="form-check-label" for="check16">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check17">
+                                                                    <label class="form-check-label" for="check17">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check18">
+                                                                    <label class="form-check-label" for="check18">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount7">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount7"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check19" checked>
+                                                                    <label class="form-check-label" for="check19">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check20" checked>
+                                                                    <label class="form-check-label" for="check20">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check21" checked>
+                                                                    <label class="form-check-label" for="check21">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount8">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount8"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check22" checked>
+                                                                    <label class="form-check-label" for="check22">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check23">
+                                                                    <label class="form-check-label" for="check23">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check24">
+                                                                    <label class="form-check-label" for="check24">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item mb-3">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#addressBook3">
+                                                臺東分署
+                                            </button>
+                                        </h2>
+                                        <div id="addressBook3" class="accordion-collapse collapse"
+                                            data-bs-parent="#addressBook">
+                                            <div class="accordion-body pt-2">
+                                                <div class="d-flex mb-2 border-bottom border-secondary-light pb-2">
+                                                    <a href="#"
+                                                        class="btn btn-sm btn-secondary text-white rounded-pill px-3 ms-auto me-2">清除</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm btn-primary text-white rounded-pill px-3">全選</a>
+                                                </div>
+                                                <div class="odd-wrapper">
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount1">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount1"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check1" checked>
+                                                                    <label class="form-check-label" for="check1">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check2">
+                                                                    <label class="form-check-label" for="check2">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check3">
+                                                                    <label class="form-check-label" for="check3">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount2">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount2"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check4" checked>
+                                                                    <label class="form-check-label" for="check4">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check5" checked>
+                                                                    <label class="form-check-label" for="check5">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check6" checked>
+                                                                    <label class="form-check-label" for="check6">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount3">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount3"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check7" checked>
+                                                                    <label class="form-check-label" for="check7">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check8">
+                                                                    <label class="form-check-label" for="check8">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check9">
+                                                                    <label class="form-check-label" for="check9">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount4">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount4"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check10" checked>
+                                                                    <label class="form-check-label" for="check10">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check11" checked>
+                                                                    <label class="form-check-label" for="check11">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check12" checked>
+                                                                    <label class="form-check-label" for="check12">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount5">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount5"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check13" checked>
+                                                                    <label class="form-check-label" for="check13">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check14">
+                                                                    <label class="form-check-label" for="check14">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check15">
+                                                                    <label class="form-check-label" for="check15">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount6">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount6"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check16" checked>
+                                                                    <label class="form-check-label" for="check16">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check17">
+                                                                    <label class="form-check-label" for="check17">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check18">
+                                                                    <label class="form-check-label" for="check18">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount7">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount7"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check19" checked>
+                                                                    <label class="form-check-label" for="check19">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check20" checked>
+                                                                    <label class="form-check-label" for="check20">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check21" checked>
+                                                                    <label class="form-check-label" for="check21">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount8">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount8"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check22" checked>
+                                                                    <label class="form-check-label" for="check22">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check23">
+                                                                    <label class="form-check-label" for="check23">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check24">
+                                                                    <label class="form-check-label" for="check24">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#addressBook4">
+                                                署長室
+                                            </button>
+                                        </h2>
+                                        <div id="addressBook4" class="accordion-collapse collapse"
+                                            data-bs-parent="#addressBook">
+                                            <div class="accordion-body pt-2">
+                                                <div class="d-flex mb-2 border-bottom border-secondary-light pb-2">
+                                                    <a href="#"
+                                                        class="btn btn-sm btn-secondary text-white rounded-pill px-3 ms-auto me-2">清除</a>
+                                                    <a href="#"
+                                                        class="btn btn-sm btn-primary text-white rounded-pill px-3">全選</a>
+                                                </div>
+                                                <div class="odd-wrapper">
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount1">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount1"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check1" checked>
+                                                                    <label class="form-check-label" for="check1">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check2">
+                                                                    <label class="form-check-label" for="check2">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check3">
+                                                                    <label class="form-check-label" for="check3">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount2">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount2"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check4" checked>
+                                                                    <label class="form-check-label" for="check4">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check5" checked>
+                                                                    <label class="form-check-label" for="check5">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check6" checked>
+                                                                    <label class="form-check-label" for="check6">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount3">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount3"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check7" checked>
+                                                                    <label class="form-check-label" for="check7">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check8">
+                                                                    <label class="form-check-label" for="check8">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check9">
+                                                                    <label class="form-check-label" for="check9">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount4">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount4"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check10" checked>
+                                                                    <label class="form-check-label" for="check10">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check11" checked>
+                                                                    <label class="form-check-label" for="check11">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check12" checked>
+                                                                    <label class="form-check-label" for="check12">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount5">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount5"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check13" checked>
+                                                                    <label class="form-check-label" for="check13">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check14">
+                                                                    <label class="form-check-label" for="check14">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check15">
+                                                                    <label class="form-check-label" for="check15">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount6">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount6"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check16" checked>
+                                                                    <label class="form-check-label" for="check16">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check17">
+                                                                    <label class="form-check-label" for="check17">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check18">
+                                                                    <label class="form-check-label" for="check18">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount7">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount7"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check19" checked>
+                                                                    <label class="form-check-label" for="check19">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check20" checked>
+                                                                    <label class="form-check-label" for="check20">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check21" checked>
+                                                                    <label class="form-check-label" for="check21">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item odd-wrapper-item">
+                                                        <h2 class="accordion-header">
+                                                            <button class="accordion-button" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#addressAccount8">
+                                                                系統帳號
+                                                            </button>
+                                                        </h2>
+                                                        <div id="addressAccount8"
+                                                            class="accordion-collapse collapse show">
+                                                            <div class="accordion-body px-0 py-2 form-check-primary">
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check22" checked>
+                                                                    <label class="form-check-label" for="check22">
+                                                                        全選
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check23">
+                                                                    <label class="form-check-label" for="check23">
+                                                                        王陳曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                                <div class="form-check mb-2">
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="check24">
+                                                                    <label class="form-check-label" for="check24">
+                                                                        王曉明 (約聘雇人員)
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="d-flex flex-wrap justify-content-center mb-4">
+                    <button class="btn btn-gray-600 text-white rounded-pill mx-1 mb-2" style="width: 130px;">取消</button>
+                    <button class="btn btn-secondary text-white rounded-pill mx-1 mb-2" style="width: 130px;">不發布</button>
+                    <button class="btn btn-secondary text-white rounded-pill mx-1 mb-2" style="width: 130px;">發布</button>
+                    <button class="btn btn-primary text-white rounded-pill mx-1 mb-2" style="width: 130px;">儲存</button>
+                </div>
+                <div class="text-center text-gray-700 fs-8 mb-4">
+                    建立日期：113年01月01日 <span class="ms-4">最後更新日期及人員：113年01月01日 00:00:00 GEO測試帳號</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+					<footer class="footer">
+    <a href="#" class="footer-gotop shadow-sm"><img src="./assets/images/ic-gotop.svg">TOP</a>
+    <div class="container-fluid footer-inner px-xl-4">
+        <p>
+            <span class="me-2">農業部農村發展及水土保持署 版權所有©copyright 2024</span>
+            <span>建議農業瀏覽器: Google Chrome、Edge</span>
+        </p>
+        <p class="ms-xxl-3">
+            <span class="me-2">維修廠商：巨鷗科技股份有限公司</span>
+            <span>聯絡窗口： (04)22985258 #509 江哲瑋</span>
+            <span>／mail：<a href="mailto:mark@geo.com.tw" class="link-gray-800">mark@geo.com.tw</a></span>
+        </p>
+    </div>
+</footer>
+		</div>
+		<!-- SCRIPTS -->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src='assets/js/jquery-ui.min.js'></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/moment-with-locales.min.js"></script>
+<script src="assets/js/tempusdominus-bootstrap-4.js"></script>
+<script src="assets/js/select2.min.js"></script>
+<script src="assets/js/footable.min.js"></script>
+<script src="assets/js/script.js"></script><!--自訂-->
+<script>
+    $(function () {
+        RESIZE();
+
+        function RESIZE() {
+            WINDOWH = $(window).height();
+            WINDOW = $(window).width();
+        }
+
+        $(window).resize(function () {
+            RESIZE();
+        })
+
+        $('.table-footable').footable({
+            "paging": {
+                "enabled": true,
+                "size": 5,
+            },
+            "sorting": {
+                "enabled": true
+            }
+        });
+
+
+        //日期表單
+        var datetimepickerOptions = {
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        };
+        $('#news_date').datetimepicker(datetimepickerOptions);
+        //時間範圍表單
+        var datetimepickerRange = {
+            locale: 'zh-tw',
+            //defaultDate: new Date(),
+            format: 'L',
+            allowMultidate: true,
+            multidateSeparator: '~',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        };
+        //$('#time-range').datetimepicker(datetimepickerRange);
+
+        //時間表單
+        var datetimepickerTime = {
+            locale: 'zh-tw',
+            format: 'LT',
+            defaultDate: new Date(),
+        };
+        //$('#send_time').datetimepicker(datetimepickerTime);
+
+        var today1 = moment(); // 第一個今天的日期
+        var today2 = moment(); // 第二個今天的日期
+
+    });
+</script>
+	</body>
+
+</html>

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <title>新聞及輿情管理系統</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="新聞及輿情管理系統,輿情管理系,農村發展及水土保持署">
+    <meta name="description" content="新聞及輿情管理系統" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta property="og:site_name" content="image.png" />
+    <meta property="og:image" content="assets/images/fb-img.png"/>
+    <!--分享設定-->
+    <link rel="icon" href="assets/images/favicon.svg" type="image/ico" />
+    <!--iconfont設定-->
+    <link rel="stylesheet" href="assets/style/all.css">
+    <!--css設定-->
+</head>
+
+	<body>
+		<noscript>
+			<div class="container">
+				<div
+					class="d-flex justify-content-center bg-base-light rounded p-4 text-primary border border-primary mt-6">
+					很抱歉，網站的某些功能在JavaScript沒有啟用的狀態下無法正常使用。
+				</div>
+			</div>
+		</noscript>
+		<!--頁面開始-->
+		<div class="wrapper">
+			<!--主選單開始-->
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top flex-wrap py-2 py-xxl-3 bg-primary shadow-none" data-con="">
+        <div class="container-fluid ps-xxl-5 pe-0">
+            <a class="navbar-brand py-0 me-0" href="index.html" title="新聞及輿情管理系統">
+                <img src="./assets/images/main-logo.svg" class="me-2" alt="農村發展及水土保持署" />
+            </a>
+            <ul class="navbar-nav flex-row ms-auto py-md-2 ps-sm-3 pe-2 pe-xxl-5">
+                <li class="nav-item fw-medium">
+                    <a href="#" class="nav-link"><img src="./assets/images/ic-service.svg" alt="icon" class="me-2">客服填報</a>
+                </li>
+                <li class="nav-item me-2 me-lg-3 fw-medium">
+                    <img src="./assets/images/ic-user.svg" alt="icon" class="me-1">您好，Hsda13578
+                </li>
+                <li class="nav-item">
+                    <a class="nav-btn btn btn-sm text-white rounded-pill flex-shrink-0 px-md-3 py-0" href="login.html" title="登出">登出</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="navbar-header shadow-sm">
+        <h1 class="navbar-header-title">新聞及輿情管理系統</h1>
+        <img src="./assets/images/header-main.png" class="navbar-header-img">
+    </div>
+</header>
+<!--主選單結束-->
+				<!--內容區塊開始-->
+<main class="main d-flex">
+    <div class="side-menu js-side-menu">
+        <button class="btn side-menu-toggler js-side-menu-toggler d-lg-none p-1" type="button">
+            <img src="./assets/images/ic-chevron-right.svg"> 功能選單
+        </button>
+        <div class="side-menu-body scrollbar">
+            <div class="accordion">
+                <div class="accordion-item side-menu-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn side-menu-btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse1">
+                            <img src="./assets/images/ic-news.svg" class="me-2 me-xl-3">
+                            <p>1 輿情蒐集管理</p>
+                        </button>
+                    </h2>
+                    <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent=".side-menu">
+                        <ul class="side-menu-accordion">
+                            <li><a href="#" class="side-menu-link">1-1 輿情查詢</a></li>
+                            <li><a href="#" class="side-menu-link">1-2 統計圖表</a></li>
+                            <li><a href="#" class="side-menu-link">1-3 回應紀錄</a></li>
+                            <li><a href="#" class="side-menu-link">1-4 輿情補登</a></li>
+                            <li><a href="#" class="side-menu-link">1-5 漏蒐追蹤</a></li>
+                            <li><a href="#" class="side-menu-link">1-6 刪除恢復</a></li>
+                            <li><a href="filter.html" class="side-menu-link">1-7 來源過濾</a></li>
+                            <li><a href="#" class="side-menu-link">1-8 關鍵字設定</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item side-menu-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn side-menu-btn collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse2">
+                            <img src="./assets/images/ic-assessment.svg" class="me-2 me-xl-3">
+                            <p>2 新聞稿作業</p>
+                        </button>
+                    </h2>
+                    <div id="collapse2" class="accordion-collapse collapse" data-bs-parent=".side-menu">
+                        <ul class="side-menu-accordion">
+                            <li><a href="edit.html" class="side-menu-link">2-1 新聞稿編輯區</a></li>
+                            <li><a href="#" class="side-menu-link">2-2 統計圖表</a></li>
+                            <li><a href="#" class="side-menu-link">2-3 回應紀錄</a></li>
+                            <li><a href="#" class="side-menu-link">2-4 輿情補登</a></li>
+                            <li><a href="#" class="side-menu-link">2-5 漏蒐追蹤</a></li>
+                            <li><a href="#" class="side-menu-link">2-6 刪除恢復</a></li>
+                            <li><a href="filter.html" class="side-menu-link">2-7 來源過濾</a></li>
+                            <li><a href="#" class="side-menu-link">2-8 關鍵字設定</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item side-menu-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn side-menu-btn collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse3">
+                            <img src="./assets/images/ic-message.svg" class="me-2 me-xl-3">
+                            <p>3 簡訊作業</p>
+                        </button>
+
+                    </h2>
+                    <div id="collapse3" class="accordion-collapse collapse" data-bs-parent=".side-menu">
+                        <ul class="side-menu-accordion">
+                            <li><a href="#" class="side-menu-link">3-1 輿情查詢</a></li>
+                            <li><a href="#" class="side-menu-link">3-2 統計圖表</a></li>
+                            <li><a href="#" class="side-menu-link">3-3 回應紀錄</a></li>
+                            <li><a href="#" class="side-menu-link">3-4 輿情補登</a></li>
+                            <li><a href="#" class="side-menu-link">3-5 漏蒐追蹤</a></li>
+                            <li><a href="#" class="side-menu-link">3-6 刪除恢復</a></li>
+                            <li><a href="filter.html" class="side-menu-link">3-7 來源過濾</a></li>
+                            <li><a href="#" class="side-menu-link">3-8 關鍵字設定</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item side-menu-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button btn side-menu-btn collapsed" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapse4">
+                            <img src="./assets/images/ic-setting.svg" class="me-2 me-xl-3">
+                            <p>4 業務應用</p>
+                        </button>
+                    </h2>
+                    <div id="collapse4" class="accordion-collapse collapse" data-bs-parent=".side-menu">
+                        <ul class="side-menu-accordion">
+                            <li><a href="#" class="side-menu-link">1-1 輿情查詢</a></li>
+                            <li><a href="#" class="side-menu-link">1-2 統計圖表</a></li>
+                            <li><a href="#" class="side-menu-link">1-3 回應紀錄</a></li>
+                            <li><a href="#" class="side-menu-link">1-4 輿情補登</a></li>
+                            <li><a href="#" class="side-menu-link">1-5 漏蒐追蹤</a></li>
+                            <li><a href="#" class="side-menu-link">1-6 刪除恢復</a></li>
+                            <li><a href="filter.html" class="side-menu-link">1-7 來源過濾</a></li>
+                            <li><a href="#" class="side-menu-link">1-8 關鍵字設定</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="side-content js-side-content close">
+       
+        <div class="side-content-header py-xl-4 mb-3">
+            <h2 class="side-content-title">新聞稿編輯區</h2>
+            <ol class="breadcrumb ms-auto">
+                <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-link" title="首頁">首頁</a></li>
+                <li class="breadcrumb-item"><a href="#" class="breadcrumb-link" title="輿情蒐集管理">輿情蒐集管理</a></li>
+                <li class="breadcrumb-item active">來源過濾</li>
+            </ol>
+        </div>
+        <div class="side-content-main">
+            <div class="container-fluid">
+                <div class="d-flex flex-wrap align-items-center mb-2">
+                    <h2 class="side-content-subtitle">新聞網址過濾</h2>
+                    <div class="input-group filter-group ms-auto">
+                        <input type="text" class="form-control" placeholder="請輸入新聞網址過濾">
+                        <button class="btn px-2 py-1" type="button">
+                            <img src="./assets/images/ic-add.svg" alt="加入">
+                        </button>
+                    </div>
+                </div>
+                <div class="item-box mb-5">
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>.cn</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap align-items-center mb-2">
+                    <h2 class="side-content-subtitle">新聞標題系統過濾</h2>
+                    <div class="input-group filter-group ms-auto">
+                        <input type="text" class="form-control" placeholder="請輸入新聞標題系統過濾">
+                        <button class="btn px-2 py-1" type="button">
+                            <img src="./assets/images/ic-add.svg" alt="加入">
+                        </button>
+                    </div>
+                </div>
+                <div class="item-box mb-5">
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap align-items-center mb-2">
+                    <h2 class="side-content-subtitle">編輯關鍵字</h2>
+                    <div class="input-group filter-group ms-auto">
+                        <input type="text" class="form-control" placeholder="請輸入編輯關鍵字過濾">
+                        <button class="btn px-2 py-1" type="button">
+                            <img src="./assets/images/ic-add.svg" alt="加入">
+                        </button>
+                    </div>
+                </div>
+                <div class="item-box mb-4">
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="item-box-item">
+                        <p>孟加拉</p>
+                        <button class="btn item-box-btn"><img src="./assets/images/ic-delete.svg" alt="刪除"></button>
+                    </div>
+                    <div class="text-notice text-secondary mb-2"><span class="flex-shrink-0 me-1">※</span>縮小查詢範圍，例如新增「農村水保署」則搜尋的標題或內容就一定會出現「農村水保署」，若新增多筆關鍵字如「農委會、農村水保署」，則結果一定會出現有關「農委會」加上「農村水保署」的新聞。</div>
+                </div>
+
+                <div class="d-flex justify-content-center mb-5">
+                    <button class="btn btn-gray-600 rounded-pill px-4 px-md-5 ms-md-auto me-3">返回</button>
+                    <button class="btn btn-secondary text-white rounded-pill px-4 px-md-5 me-3">取消</button>
+                    <button class="btn btn-primary text-white rounded-pill px-4 px-md-5">儲存</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+					<footer class="footer">
+    <a href="#" class="footer-gotop shadow-sm"><img src="./assets/images/ic-gotop.svg">TOP</a>
+    <div class="container-fluid footer-inner px-xl-4">
+        <p>
+            <span class="me-2">農業部農村發展及水土保持署 版權所有©copyright 2024</span>
+            <span>建議農業瀏覽器: Google Chrome、Edge</span>
+        </p>
+        <p class="ms-xxl-3">
+            <span class="me-2">維修廠商：巨鷗科技股份有限公司</span>
+            <span>聯絡窗口： (04)22985258 #509 江哲瑋</span>
+            <span>／mail：<a href="mailto:mark@geo.com.tw" class="link-gray-800">mark@geo.com.tw</a></span>
+        </p>
+    </div>
+</footer>
+		</div>
+		<!-- SCRIPTS -->
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src='assets/js/jquery-ui.min.js'></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/slick.js"></script>
+<script src="assets/js/moment-with-locales.min.js"></script>
+<script src="assets/js/tempusdominus-bootstrap-4.js"></script>
+<script src="assets/js/select2.min.js"></script>
+<script src="assets/js/footable.min.js"></script>
+<script src="assets/js/script.js"></script><!--自訂-->
+<script>
+    $(function () {
+        RESIZE();
+
+        function RESIZE() {
+            WINDOWH = $(window).height();
+            WINDOW = $(window).width();
+        }
+
+        $(window).resize(function () {
+            RESIZE();
+        })
+
+        $('.table-footable').footable({
+            "paging": {
+                "enabled": true,
+                "size": 5,
+            },
+            "sorting": {
+                "enabled": true
+            }
+        });
+
+
+        //日期表單
+        var datetimepickerOptions = {
+            locale: 'zh-tw',
+            defaultDate: new Date(),
+            format: 'L',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        };
+        $('#news_date').datetimepicker(datetimepickerOptions);
+        //時間範圍表單
+        var datetimepickerRange = {
+            locale: 'zh-tw',
+            //defaultDate: new Date(),
+            format: 'L',
+            allowMultidate: true,
+            multidateSeparator: '~',
+            icons: {
+                time: "bi bi-clock",
+                date: "bi bi-calendar",
+                up: "bi bi-arrow-up",
+                down: "bi bi-arrow-down",
+                previous: "bi bi-chevron-left",
+                next: "bi bi-chevron-right",
+                today: "bi bi-clock",
+                clear: "bi bi-trash3"
+            }
+        };
+        //$('#time-range').datetimepicker(datetimepickerRange);
+
+        //時間表單
+        var datetimepickerTime = {
+            locale: 'zh-tw',
+            format: 'LT',
+            defaultDate: new Date(),
+        };
+        //$('#send_time').datetimepicker(datetimepickerTime);
+
+        var today1 = moment(); // 第一個今天的日期
+        var today2 = moment(); // 第二個今天的日期
+
+    });
+</script>
+	</body>
+
+</html>

@@ -1,0 +1,4 @@
+<svg id="ic-calendar" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <path id="Path_32" data-name="Path 32" d="M0,0H20V20H0Z" fill="none"/>
+  <path id="Path_33" data-name="Path 33" d="M17,2.667h-.833V1H14.5V2.667H6.167V1H4.5V2.667H3.667A1.672,1.672,0,0,0,2,4.333V17.667a1.672,1.672,0,0,0,1.667,1.667H17a1.672,1.672,0,0,0,1.667-1.667V4.333A1.672,1.672,0,0,0,17,2.667Zm0,15H3.667V8.5H17ZM17,6.833H3.667v-2.5H17Z" transform="translate(-0.333 -0.167)" fill="#00b174"/>
+</svg>
