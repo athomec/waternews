@@ -301,9 +301,8 @@
                                 <div class="d-flex align-items-center flex-column flex-sm-row">
                                     <textarea class="form-control" id="event_items"
                                         rows="3">「泉」家來同樂 員山同樂社區友善營湧泉溝環境  獲頒優良農建獎</textarea>
-                                    <p class="flex-shrink-0 ms-2 ms-md-3 text-end ms-auto " style="width: 80px;"><span
-                                            class="text-secondary">50</span>
-                                        / 100</p>
+                                    <p class="flex-shrink-0 ms-2 ms-lg-3 text-end ms-auto" style="width: 75px;"><span
+                                            class="text-secondary">50</span>/ 100</p>
                                 </div>
                             </td>
                         </tr>
@@ -356,7 +355,7 @@
                                         <div class="d-flex align-items-center flex-column flex-sm-row">
                                             <input type="text" class="form-control" id="intro_file"
                                                 value="049-0000000轉7103">
-                                            <p class="flex-shrink-0 ms-2 ms-md-3 text-end ms-auto " style="width: 80px;"><span
+                                            <p class="flex-shrink-0 ms-2 ms-lg-3 text-end ms-auto" style="width: 75px;"><span
                                                     class="text-secondary">30</span> / 50</p>
                                         </div>
                                     </div>
@@ -396,7 +395,7 @@
                     <div class="table-badge table-badge-white">4</div>
                     <p>加入發布媒體</p>
                 </h3>
-                <table class="table table-container shadow-sm mb-5">
+                <table class="table table-container shadow-sm">
                     <tbody>
                         <tr>
                             <th scope="row" width="15%">農村水保署通訊錄</th>
@@ -1611,7 +1610,83 @@
                         </tr>
                     </tbody>
                 </table>
-
+<div class="table-container-connect"></div>
+<h3 class="table-container-header bg-tertiary">
+    <div class="table-badge table-badge-white">5</div>
+    <p>選擇發布方式</p>
+</h3>
+<table class="table table-container shadow-sm mb-5">
+    <tbody>
+        <tr>
+            <th scope="row" width="15%">發布方式</th>
+            <td>
+                <div class="form-check-primary mb-4">
+                    <div class="form-check form-check-inline me-5">
+                        <input class="form-check-input" type="checkbox" value="" id="namelist_email" checked="">
+                        <label class="form-check-label" for="namelist_email">
+                            Email
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" value="" id="namelist_message" checked="">
+                        <label class="form-check-label" for="namelist_message">
+                            簡訊
+                        </label>
+                    </div>
+                </div>
+                <label for="fileButton" class="form-label message_con">簡訊內容</label>
+                <div class="d-flex align-items-center flex-column flex-sm-row mb-3">
+                    <textarea class="form-control" id="message_con" rows="3"></textarea>
+                    <p class="flex-shrink-0 ms-2 ms-lg-3 text-end ms-auto" style="width: 75px;"><span
+                            class="text-secondary">100</span> / 166</p>
+                </div>
+                <ul class="notice-list">
+                    <li class="notice-list-item">請發稿人依照 "新聞特色" 自行輸入簡訊內容。</li>
+                    <li class="notice-list-item">輸入166個字元， 需要3封簡訊傳送。(70個字元為一封簡訊)。</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" width="15%">發送時間</th>
+            <td>
+                <div class="d-flex flex-wrap align-items-center">
+                    <div class="form-check form-check-inline me-5 mb-2">
+                        <input class="form-check-input" type="radio" name="send" id="intime" value="option1" checked="">
+                        <label class="form-check-label" for="intime">即時</label>
+                    </div>
+                    <div class="form-check form-check-inline me-3 mb-2">
+                        <input class="form-check-input" type="radio" name="send" id="reservation" value="option2">
+                        <label class="form-check-label" for="reservation">預約</label>
+                    </div>
+                    <div class="d-flex mb-2">
+                        <label for="send_date" class="form-label visually-hidden">日期</label>
+                        <div class="input-group date me-2" id="send_date" data-target-input="nearest"
+                            style="max-width: 150px;">
+                            <input type="text" class="form-control datetimepicker-input border-end-0 pe-0"
+                                data-target="#send_date">
+                            <div class="input-group-append" data-target="#send_date" data-toggle="datetimepicker">
+                                <button class="btn input-group-text" title="發送日期" value="發送日期">
+                                    <img src="./assets/images/ic-calendar.svg" alt="icon">
+                                </button>
+                            </div>
+                        </div>
+                        <label for="send_time" class="form-label visually-hidden">時間</label>
+                        <div class="input-group date" id="send_time" data-target-input="nearest"
+                            style="max-width: 150px;">
+                            <input type="text" class="form-control datetimepicker-input border-end-0 pe-0"
+                                data-target="#send_time">
+                            <div class="input-group-append" data-target="#send_time" data-toggle="datetimepicker">
+                                <button class="btn input-group-text" title="發送時間" value="發送時間">
+                                    <img src="./assets/images/ic-time.svg" alt="icon">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
                 <div class="d-flex flex-wrap justify-content-center mb-4">
                     <button class="btn btn-gray-600 text-white rounded-pill mx-1 mb-2" style="width: 130px;">取消</button>
                     <button class="btn btn-secondary text-white rounded-pill mx-1 mb-2" style="width: 130px;">不發布</button>
@@ -1691,6 +1766,7 @@
             }
         };
         $('#news_date').datetimepicker(datetimepickerOptions);
+        $('#send_date').datetimepicker(datetimepickerOptions);
         //時間範圍表單
         var datetimepickerRange = {
             locale: 'zh-tw',
@@ -1717,7 +1793,7 @@
             format: 'LT',
             defaultDate: new Date(),
         };
-        //$('#send_time').datetimepicker(datetimepickerTime);
+        $('#send_time').datetimepicker(datetimepickerTime);
 
         var today1 = moment(); // 第一個今天的日期
         var today2 = moment(); // 第二個今天的日期

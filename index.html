@@ -466,6 +466,7 @@
             }
         };
         $('#news_date').datetimepicker(datetimepickerOptions);
+        $('#send_date').datetimepicker(datetimepickerOptions);
         //時間範圍表單
         var datetimepickerRange = {
             locale: 'zh-tw',
@@ -492,7 +493,7 @@
             format: 'LT',
             defaultDate: new Date(),
         };
-        //$('#send_time').datetimepicker(datetimepickerTime);
+        $('#send_time').datetimepicker(datetimepickerTime);
 
         var today1 = moment(); // 第一個今天的日期
         var today2 = moment(); // 第二個今天的日期
